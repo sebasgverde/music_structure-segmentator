@@ -4,21 +4,6 @@
 # # Running MSAF #
 #
 
-"""
-change the parameters as you need
-
-Boundary methods: ['example', 'scluster', 'sf', 'vmo', 'olda', 'foote', 'cnmf']
-LAbeling methods: ['scluster', 'fmc2d', 'vmo', 'cnmf']
-
-audio_file = "/home/sebastian/Downloads/20181119_paul_gilbert.wav"
-boundaries_param = "foote"
-labels_param = "cnmf"
-
-run like this to conserve the metadata
- python segmentate.py > 20181119_paul_gilbert_segmentation.wav.txt
-
-"""
-
 from __future__ import print_function
 import msaf
 import librosa

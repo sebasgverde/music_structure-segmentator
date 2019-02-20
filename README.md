@@ -7,3 +7,16 @@ simple way to give a song and get the boundaries and a simple image.
 
 Here is my simplification (which of course has the original software as dependency),
 you just need to specify a path for a wav, and the methods.
+
+
+change the parameters as you need
+
+Boundary methods: ['example', 'scluster', 'sf', 'vmo', 'olda', 'foote', 'cnmf']
+Labeling methods: ['scluster', 'fmc2d', 'vmo', 'cnmf']
+
+audio_file = "path_wav_file.wav"
+boundaries_param = "foote"
+labels_param = "cnmf"
+
+run like this:
+python segmentate.py
