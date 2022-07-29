@@ -40,7 +40,7 @@ llvmlite==0.27.1
 MarkupSafe==1.1.0
 matplotlib==2.2.2
 mir-eval==0.4
-mistune==0.8.4
+mistune==2.0.3
 msaf==0.1.70
 nbconvert==5.4.1
 nbformat==4.4.0
